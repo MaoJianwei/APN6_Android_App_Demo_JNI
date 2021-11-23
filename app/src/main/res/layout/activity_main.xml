@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="318dp"
+        android:layout_height="540dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.003">
+
+        <EditText
+            android:id="@+id/ConnectToAddr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text="@string/mao_button_ConnectToAddr" />
+
+        <EditText
+            android:id="@+id/ConnectToPort"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text="@string/mao_button_ConnectToPort" />
+
+        <Button
+            android:id="@+id/Connect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mao_button_Connect"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/SendAndIncrease"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mao_button_SendAndIncrease"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/Close"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mao_button_Close"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:id="@+id/ClientResult"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="@string/mao_button_ClientResult"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="318dp"
+        android:layout_height="162dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/BindAndListen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mao_button_BindAndListen"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:id="@+id/ServerResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mao_button_ServerResult"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

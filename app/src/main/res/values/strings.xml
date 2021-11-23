@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Mao Android JNI for APN6</string>
+    <string name="mao_button_BindAndListen">Bind And Listen</string>
+    <string name="mao_button_Connect">Connect</string>
+    <string name="mao_button_SendAndIncrease">Send And Increase</string>
+    <string name="mao_button_Close">Close</string>
+    <string name="mao_button_ServerResult">Server Result Text</string>
+    <string name="mao_button_ClientResult">Client Result Text</string>
+    <string name="mao_button_ConnectToAddr">127.0.0.1</string>
+    <string name="mao_button_ConnectToPort">8768</string>
+</resources>
