@@ -2,6 +2,8 @@
 
 Android client and server with APN6 enabled, supported by Java Native Interface(JNI).
 
+You may need to obtain ROOT permission, or upgrade your Android system.
+
 .
 
 ## Screenshots
