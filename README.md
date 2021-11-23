@@ -1,5 +1,7 @@
 # APN6_Android_App_Demo_JNI
 
+[![Android CI](https://github.com/MaoJianwei/APN6_Android_App_Demo_JNI/actions/workflows/android.yml/badge.svg)](https://github.com/MaoJianwei/APN6_Android_App_Demo_JNI/actions/workflows/android.yml)
+
 Android client and server with APN6 enabled, supported by Java Native Interface(JNI).
 
 You may need to obtain ROOT permission, or upgrade your Android system.
